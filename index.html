@@ -3,8 +3,6 @@
     <head>
         <title>Absolute Music Login</title>
         <link rel="icon" href="fav.png">
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
-        <meta name="google-signin-client_id" content="958352714056-tggmo2dpmgq35ifug0lj0d2mqs6etuqj.apps.googleusercontent.com">
         <style>
           .container {
             display: flex;
@@ -33,16 +31,6 @@
         <div class="container">
           <a href="https://discordapp.com/api/oauth2/authorize?client_id=633176467068551168&redirect_uri=https%3A%2F%2Fabsolute-music.github.io%2Fdsfdhdghsdfhsjhcbf.html&response_type=code&scope=identify">Login through discord</a>
         </div>
-        <div class="g-signin2" data-onsuccess="onSignIn"></div>
-        <a href="#" onclick="signOut();">Sign out</a>
-<script>
-  function signOut() {
-    var auth2 = gapi.auth2.getAuthInstance();
-    auth2.signOut().then(function () {
-      console.log('User signed out.');
-    });
-  }
-</script>
     </body>
 <style>
   body { 	
